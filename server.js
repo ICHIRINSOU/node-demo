@@ -25,7 +25,7 @@ var server = http.createServer(function(request, response){
     response.write(`
       <!DOCTYPE html>
       <head>
-      <link ref="stylesheet" href="/css">
+      <link rel="stylesheet" href="/css">
       </head>
       <body>
       <h1>今天想吃十个闪电泡芙！</h1>
